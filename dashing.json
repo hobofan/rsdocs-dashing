@@ -1,0 +1,37 @@
+{
+    "name": "rs-iron",
+    "package": "iron",
+    "index": "index.html",
+    "selectors": {
+        "body.rustdoc.mod h1 a.mod": {
+          "type": "Module"
+        },
+        "body.rustdoc.struct h1 a.struct": {
+          "type": "Struct"
+        },
+        "body.rustdoc.trait h1 a.trait": {
+          "type": "Trait"
+        },
+        "body.rustdoc.macro h1 a.macro": {
+          "type": "Macro"
+        },
+        "body.rustdoc.type h1 a.type": {
+          "type": "Type"
+        },
+        "code a.fnname": {
+          "type": "Function"
+        },
+        "body.rustdoc.enum h1 a.enum": {
+          "type": "Enum"
+        },
+        "body.rustdoc.enum .variant code": {
+          "type": "Value"
+        }
+    },
+    "ignore": [
+        "ABOUT"
+    ],
+    "icon32x32": "",
+    "allowJS": true,
+    "ExternalURL": ""
+}
