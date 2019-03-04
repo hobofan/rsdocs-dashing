@@ -15,7 +15,7 @@ Given that you crate is named `<MYCRATE>`:
 - Generate the cargo documentation for the crate via `cargo doc` (add feature flags if desired)
 - Run `rsdocs-dashing target/doc/<MYCRATE> docset`
 - Run `dashing build --config docset/dashing.json --source docset/build`
-- Add the newly generate `docset/<MYCRATE>.docset` to your docset viewer
+- Add the newly generated `<MYCRATE>.docset` to your docset viewer
 
 ### License
 
